@@ -1,0 +1,1 @@
+{"title":"reduce()","message":"let numbers = [1, 2, 3, 4, 5, 9, 4 ,5, 6, 2,3, 1,9, 9, 9, 9, 9, 9, 9, 9, 9]\n\n\nnumbers.reduce((seed, number) => {\n\tif (seed[number]) {\n\t\tseed[number]++;\n\t} else {\n\t\tseed[number] = 1;\n\t}\n}, {});","id":"9933e5ce-a4bb-4055-9795-eb6c568cfcec","date":"2019-01-09T20:25:46.990Z"}
